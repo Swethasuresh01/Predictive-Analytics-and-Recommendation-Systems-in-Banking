@@ -79,9 +79,9 @@ Synthetic data is generated using the Faker Python library
    * Install pyngrok:
      pip install pyngrok
    * Add your ngrok authentication token and include the following snippet in your script:
-     from pyngrok import ngrok
-     ngrok.set_auth_token("your_ngrok_token")
-     public_url = ngrok.connect(8501)
+           from pyngrok import ngrok
+           ngrok.set_auth_token("your_ngrok_token")
+           public_url = ngrok.connect(8501)
      print(f"Access your app here: {public_url}")
 The app will now be accessible via the generated public URL.
 3. Explore Online Streamlit App:
