@@ -61,17 +61,20 @@
 **Model Building and Evaluation:**
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * Split Data
-* Model Training and Evaluate: ** Loan Default Prediction: Use Classification models-Logistic Regression, Decision Tree Classifer, Random Forest Classifier, Gradient Boosting. Metrics: Accuracy, Precision, Recall, F1 score. ** Customer Segmentations: Use Clustering Algorithms-KMeans, DBscan, Hierarchical Clustering to segment customers based on transaction behavior. Metrics: Silhoutte scores and Davies-Bouldin index to evaluate cluster quality. ** Product Recommendations: Use Collabarative filtering or Content-Based Filtering Algorithms. Metrics: Precision, Recall, Mean Average Precision(MAP), Normalized Discounted Cumulative Gain score.
+**Model Training and Evaluate:** Loan Default Prediction: Use Classification models-Logistic Regression, Decision Tree Classifer, Random Forest Classifier, Gradient Boosting. Metrics: Accuracy, Precision, Recall, F1 score.
+** Customer Segmentations:** Use Clustering Algorithms-KMeans, DBscan, Hierarchical Clustering to segment customers based on transaction behavior. Metrics: Silhoutte scores and Davies-Bouldin index to evaluate cluster quality.
+** Product Recommendations:** Use Collabarative filtering or Content-Based Filtering Algorithms. Metrics: Precision, Recall, Mean Average Precision(MAP), Normalized Discounted Cumulative Gain score.
 Optimize with Hyperparameter Tuning: Use Cross-Validation and Grid Search.
 
 **Model GUI:**
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * Develop a Streamlit App for interactive predictions, customer segmentations and product recommendations.
 * Allow the users to input feature values and display predictions, customer segmentations and product recommendations.
+
+
 **Usage:**
-* Run the App locally streamlit run bank.py
+* Run the App locally: streamlit run bank.py
 * Expose the App to the Internet Using ngrok.
 * Install pyngrok: pip install pyngrok
-* Add your ngrok authentication token and include the following snippet in your script: from pyngrok import ngrok ngrok.set_auth_token("your_ngrok_token") public_url = ngrok.connect(8501) print(f"Access your app
-* here: {public_url}") The app will now be accessible via the generated public URL.
+* Add your ngrok authentication token and include the following snippet in your script: from pyngrok import ngrok ngrok.set_auth_token("your_ngrok_token") public_url = ngrok.connect(8501) print(f"Access your app here: {public_url}") The app will now be accessible via the generated public URL.
 * Explore Online Streamlit App: You can access the live application hosted at: https://086e-34-73-124-243.ngrok-free.app/ 
