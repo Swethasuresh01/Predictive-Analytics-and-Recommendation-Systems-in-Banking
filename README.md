@@ -60,10 +60,9 @@
 
 **Model Building and Evaluation:**
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* Split Data
-**Model Training and Evaluate:** Loan Default Prediction: Use Classification models-Logistic Regression, Decision Tree Classifer, Random Forest Classifier, Gradient Boosting. Metrics: Accuracy, Precision, Recall, F1 score.
-** Customer Segmentations:** Use Clustering Algorithms-KMeans, DBscan, Hierarchical Clustering to segment customers based on transaction behavior. Metrics: Silhoutte scores and Davies-Bouldin index to evaluate cluster quality.
-** Product Recommendations:** Use Collabarative filtering or Content-Based Filtering Algorithms. Metrics: Precision, Recall, Mean Average Precision(MAP), Normalized Discounted Cumulative Gain score.
+* **Model Training and Evaluate:** Loan Default Prediction: Use Classification models-Logistic Regression, Decision Tree Classifer, Random Forest Classifier, Gradient Boosting. Metrics: Accuracy, Precision, Recall, F1 score.
+* ** Customer Segmentations:** Use Clustering Algorithms-KMeans, DBscan, Hierarchical Clustering to segment customers based on transaction behavior. Metrics: Silhoutte scores and Davies-Bouldin index to evaluate cluster quality.
+* ** Product Recommendations:** Use Collabarative filtering or Content-Based Filtering Algorithms. Metrics: Precision, Recall, Mean Average Precision(MAP), Normalized Discounted Cumulative Gain score.
 Optimize with Hyperparameter Tuning: Use Cross-Validation and Grid Search.
 
 **Model GUI:**
